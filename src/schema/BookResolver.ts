@@ -9,17 +9,17 @@ export class BookResolver {
     book.id = "fakeid";
     return book;
   }
-  @Query(returns => [Book])
+  @Query((returns) => [Book])
   async books() {
-    let book1 = new Book();
-    let book2 = new Book();
-    let book3 = new Book();
+    const book1 = new Book();
+    const book2 = new Book();
+    const book3 = new Book();
     book1.title = "Title1";
     book2.title = "Title2";
     book3.title = "Title3";
     book1.id = "id1";
     book2.id = "id2";
     book3.id = "id3";
-    return [ book1, book2, book3 ];
+    return [book1, book2, book3];
   }
 }

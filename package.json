@@ -4,6 +4,7 @@
   "description": "Backend GraphQL Server with Fastify",
   "main": "index.js",
   "scripts": {
+    "format": "eslint --fix && prettier . --write --ignore-unknown",
     "start": "tsc && ts-node dist/App.js",
     "test": ""
   },
