@@ -25,5 +25,14 @@ jobs:
         uses: actions/setup-node@v1.4.3
       - name: Install dependencies
         run: npm install
+      - name: Format
+        run: |
+          eslint --fix
+          prettier --write --ignore-unknown
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4.1.2
+        with:
+          commit_message: 'style: apply formatting changes [skip ci]'
+          branch: ${{ github.head_ref }}
       - name: Trigger release and generate changelog
         run: npx semantic-release
