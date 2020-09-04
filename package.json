@@ -1,0 +1,59 @@
+{
+  "name": "fastify-graphql",
+  "version": "0.0.0",
+  "description": "Backend GraphQL Server with Fastify",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && ts-node dist/App.js",
+    "test": ""
+  },
+  "author": "",
+  "license": "ISC",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
+    "@semantic-release/changelog": "^5.0.1",
+    "@semantic-release/commit-analyzer": "^8.0.1",
+    "@semantic-release/git": "^9.0.0",
+    "@semantic-release/github": "^7.0.7",
+    "@semantic-release/npm": "^7.0.5",
+    "@semantic-release/release-notes-generator": "^9.0.1",
+    "@typescript-eslint/eslint-plugin": "^4.0.1",
+    "@typescript-eslint/parser": "^4.0.1",
+    "eslint": "^7.8.1",
+    "eslint-config-prettier": "^6.11.0",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.3.0",
+    "prettier": "2.1.1",
+    "semantic-release": "^17.1.1",
+    "typescript": "^4.0.2"
+  },
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "lint-staged"
+    }
+  },
+  "lint-staged": {
+    "**/*": [
+      "eslint --fix",
+      "prettier --write --ignore-unknown"
+    ]
+  },
+  "dependencies": {
+    "@types/node": "^14.6.3",
+    "class-validator": "^0.12.2",
+    "fastify": "^3.3.0",
+    "fastify-gql": "^5.6.0",
+    "graphql": "^15.3.0",
+    "reflect-metadata": "^0.1.13",
+    "ts-node": "^9.0.0",
+    "type-graphql": "^1.0.0"
+  }
+  }
