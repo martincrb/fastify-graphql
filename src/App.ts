@@ -27,7 +27,9 @@ export class App {
         this.server.log.error(err);
         process.exit(1);
       }
-      this.server.log.info(`server listening on ${port}`);
+      this.server.log.info(
+        `server listening on ${port}, hope you enjoy the server`
+      );
     });
   }
 }
