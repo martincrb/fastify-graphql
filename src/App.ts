@@ -12,7 +12,7 @@ export class App {
       "/healthz",
       {},
       async (request: fastify.FastifyRequest, reply: fastify.FastifyReply) => {
-        return { status: "healthy" };
+        return { status: "health" };
       }
     );
     const schema = await buildSchema({ resolvers: [BookResolver] });
