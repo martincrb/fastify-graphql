@@ -1,9 +1,8 @@
 ## [1.2.0](https://github.com/martincrb/fastify-graphql/compare/v1.1.2...v1.2.0) (2021-04-13)
 
-
 ### Features
 
-* add amazing feature ([bab62a4](https://github.com/martincrb/fastify-graphql/commit/bab62a4d5ca2bab384dda48127f01a0d408d6f74))
+- add amazing feature ([bab62a4](https://github.com/martincrb/fastify-graphql/commit/bab62a4d5ca2bab384dda48127f01a0d408d6f74))
 
 ## [1.1.2](https://github.com/martincrb/fastify-graphql/compare/v1.1.1...v1.1.2) (2021-04-13)
 
