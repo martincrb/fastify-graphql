@@ -1,3 +1,10 @@
+## [1.1.2](https://github.com/martincrb/fastify-graphql/compare/v1.1.1...v1.1.2) (2021-04-13)
+
+
+### Bug Fixes
+
+* change healthy to health ([c78f477](https://github.com/martincrb/fastify-graphql/commit/c78f4772ea95154470897dfde7b2cac2265c28ad))
+
 ## [1.1.1](https://github.com/martincrb/fastify-graphql/compare/v1.1.0...v1.1.1) (2021-04-13)
 
 ### Bug Fixes
