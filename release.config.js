@@ -1,42 +1,7 @@
 module.exports = {
   plugins: [
     "@semantic-release/commit-analyzer",
-    [
-      "@semantic-release/release-notes-generator",
-      {
-        preset: "conventionalCommits",
-        parserOpts: {
-          noteKeywords: ["BREAKING CHANGE", "BREAKING CHANGES", "BREAKING"],
-        },
-        presetConfig: {
-          types: [
-            {
-              type: "feat",
-              section: "Features",
-            },
-            {
-              type: "fix",
-              section: "Bug Fixes",
-            },
-            {
-              type: "chore",
-              section: "Internal",
-              hidden: false,
-            },
-            {
-              type: "refactor",
-              section: "Internal",
-              hidden: false,
-            },
-            {
-              type: "perf",
-              section: "Internal",
-              hidden: false,
-            },
-          ],
-        },
-      },
-    ],
+    "@semantic-release/release-notes-generator",
     "@semantic-release/changelog",
     [
       "@semantic-release/npm",
