@@ -1,3 +1,10 @@
+## [2.0.1](https://github.com/martincrb/fastify-graphql/compare/v2.0.0...v2.0.1) (2021-04-13)
+
+
+### Bug Fixes
+
+* fixing health endpoint ([61cbcf9](https://github.com/martincrb/fastify-graphql/commit/61cbcf9b8bdbeb7df2fefaf5d1083e09c6c60408))
+
 # [2.0.0](https://github.com/martincrb/fastify-graphql/compare/v1.2.0...v2.0.0) (2021-04-13)
 
 ### Features
