@@ -1,3 +1,16 @@
+# [2.0.0](https://github.com/martincrb/fastify-graphql/compare/v1.2.0...v2.0.0) (2021-04-13)
+
+
+### Features
+
+* some changes ([9eda77c](https://github.com/martincrb/fastify-graphql/commit/9eda77c684c7f5c1cb151ee7c0359c126fbdccc0))
+* **githubaction:** remove pr trigger BREAKING CHANGE ([cc3a1a4](https://github.com/martincrb/fastify-graphql/commit/cc3a1a4908c70d219be1c8e464770ae3797c398c))
+
+
+### BREAKING CHANGES
+
+* breaking something
+
 ## [1.2.0](https://github.com/martincrb/fastify-graphql/compare/v1.1.2...v1.2.0) (2021-04-13)
 
 ### Features
