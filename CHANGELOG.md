@@ -1,3 +1,11 @@
+## [2.0.2](https://github.com/martincrb/fastify-graphql/compare/v2.0.1...v2.0.2) (2021-04-13)
+
+
+### Bug Fixes
+
+* revert change ([db88113](https://github.com/martincrb/fastify-graphql/commit/db88113c42d19640c7a959e2212c3d73d0d467c7))
+* simplify package json ([40adea1](https://github.com/martincrb/fastify-graphql/commit/40adea168246caf8427c1192ce68c58826f3f65f))
+
 ## [2.0.1](https://github.com/martincrb/fastify-graphql/compare/v2.0.0...v2.0.1) (2021-04-13)
 
 ### Bug Fixes
