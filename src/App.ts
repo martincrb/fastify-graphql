@@ -9,7 +9,7 @@ export class App {
 
   async listen(port: number) {
     this.server.get(
-      "/healthz",
+      "/health",
       {},
       async (request: fastify.FastifyRequest, reply: fastify.FastifyReply) => {
         return { status: "health" };
